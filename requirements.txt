@@ -1,6 +1,0 @@
-# generated from manifests external_dependencies
-python-stdnum
-requests
-requests_oauthlib
-unicodecsv
-unidecode
