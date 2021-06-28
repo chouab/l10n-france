@@ -40,8 +40,8 @@ class Partner(models.Model):
             else:
                 rec.write({"siren": False, "nic": False})
 
-    @api.constrains("siren", "nic")
-    def _check_siret(self):
+    #@api.constrains("siren", "nic")
+    def NO_check_siret(self):
         """Check the SIREN's and NIC's keys (last digits)"""
         for rec in self:
             if rec.nic:
